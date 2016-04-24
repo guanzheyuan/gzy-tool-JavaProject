@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Sway/.m2/repository/org/springframework/spring-web/3.2.8.RELEASE/spring-web-3.2.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="A:/存放卷/Eclipse Project/text/WebContent/WEB-INF/lib/poi-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="A:/存放卷/Eclipse Project/text/WebContent/WEB-INF/lib/poi-examples-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="A:/存放卷/Eclipse Project/text/WebContent/WEB-INF/lib/poi-excelant-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="A:/存放卷/Eclipse Project/text/WebContent/WEB-INF/lib/poi-ooxml-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="A:/存放卷/Eclipse Project/text/WebContent/WEB-INF/lib/poi-ooxml-schemas-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="A:/存放卷/Eclipse Project/text/WebContent/WEB-INF/lib/poi-scratchpad-3.10.1-20140818.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
