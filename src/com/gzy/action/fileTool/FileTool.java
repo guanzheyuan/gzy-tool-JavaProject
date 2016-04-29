@@ -9,9 +9,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
+
 import org.springframework.web.multipart.MultipartFile;
-
-
 /**
  * 文件管理类
  * @author Sway
@@ -25,11 +24,11 @@ public class FileTool {
 	 */
 	public void doUploadFile(MultipartFile file,String outPath, String name) {
 		// TODO Auto-generated method stub
-		OutputStream os = null;//�����
-		InputStream is = null;//������
+		OutputStream os = null;
+		InputStream is = null;
 		if(null!=file){
 			try {
-				 is = file.getInputStream();
+				 is =file.getInputStream();
 				 os = new FileOutputStream(outPath+""+this.doChangeFileName(file, name));
 				 int byteRead=0;
 				 byte[] buffer = new byte[1024];
