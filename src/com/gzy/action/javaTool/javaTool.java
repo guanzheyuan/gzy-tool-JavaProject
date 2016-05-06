@@ -1,6 +1,5 @@
 package com.gzy.action.javaTool;
 
-import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Field;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
