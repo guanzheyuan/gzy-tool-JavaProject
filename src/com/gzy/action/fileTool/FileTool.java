@@ -134,4 +134,5 @@ public class FileTool {
 		String fileExtension=fileName.substring(fileNameLen, fileName.length());//��ȡ��׺��
 		return name+""+fileExtension;//����������
 	}
+	
 }
