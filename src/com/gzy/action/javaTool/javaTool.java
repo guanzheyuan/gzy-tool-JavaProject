@@ -270,9 +270,4 @@ public class javaTool {
         }
         return new String(respData);
     }
-    
-
-    
-
-
 }
