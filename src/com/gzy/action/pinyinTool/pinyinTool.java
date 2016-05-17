@@ -5,7 +5,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 public class pinyinTool {
  
-	 public static void main(String[] args) {
+	 @SuppressWarnings({ "rawtypes", "unchecked" })
+	public static void main(String[] args) {
 		 //Collator 类是用来执行区分语言环境的 String 比较的，这里选择使用CHINA
 		  Comparator comparator = Collator.getInstance(java.util.Locale.CHINA);
 		  String[] arrStrings = { "乔峰", "郭靖", "杨过", "张无忌","韦小宝","admin" };
